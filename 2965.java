@@ -3,7 +3,7 @@
 import java.util.Arrays;
 class Main {
     public static void main(String[] args) {
-        int[][] nums = {{{9,1,7},{8,9,2},{3,4,6}}};
+        int[][] nums = {{9,1,7},{8,9,2},{3,4,6}};
         // int[][] nums = {{1,3},{2,2}};
         System.out.println(Arrays.toString(findRepMis(nums)));
     }
